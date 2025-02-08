@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me</title>
+    <style>
+        button {
+            width: 150px;
+            height: 50px;
+            font-size: 2rem;
+        }
+    </style>
+    <link rel="stylesheet" href="output.css" >
+    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
+</head>
+
+<body>
+
+    <div class="main w-[100vw] h-[100vh]    flex flex-col justify-center 
+    items-center  gap-10 bg-cover  bg-[url('red_heart_back.jpg')]" >
+        <div class="imagebox border w-[200px] h-[200px] bg-transparent border-0 rounded-4xl -mt-30 bg-[url('./dudu_eye_close.gif')] bg-cover 
+        hover:bg-[url('bubu_giving_rose.jfif')] " 
+        ></div>
+        <h1 class="questionbox text-red-400 bold italic font-bold text-4xl font-bold text-center align ">Do you love me?</h1>
+        <div class="btns flex gap-5 justify-evenly w-[400px] ">
+            <button id="yes" class=" bg-gradient-to-tl from-rose-700 to-red-600 
+            text-red-300 font-bold hover:bg-red-500 hover:scale-110">YES</button>
+            <button id="no" class="bg-gradient-to-tl from-rose-700 to-red-600 
+            text-red-300 font-bold hover:bg-red-500 
+            transition duration:400 ease-out transform sm:hover:rotate-10 
+            sm:hover:skew-10 hover:scale-45  ">NO</button>
+        </div>
+    </div>
+
+    <script src="DoYouLoveMe.js"></script>
+</body>
+
+</html>
